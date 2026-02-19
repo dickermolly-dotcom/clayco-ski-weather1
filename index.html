@@ -26,9 +26,6 @@
   .desc { font-size: 9px; color: #7A8FA8; margin-bottom: 4px; }
   .snow { font-size: 9px; color: #5BC4D8; font-weight: bold; letter-spacing: 0.08em; }
   .loading { opacity: 0.3; }
-  .map-wrap { position: relative; height: 320px; background: #091220; }
-  .map-wrap iframe { width: 100%; height: 100%; border: none; display: block; }
-  .map-label { position: absolute; top: 8px; left: 8px; background: rgba(9,18,32,0.85); border-left: 3px solid #5BC4D8; padding: 4px 10px; font-size: 9px; font-weight: bold; letter-spacing: 0.12em; color: #C5D0E0; text-transform: uppercase; pointer-events: none; }
   .footer { background: #091220; border-top: 1px solid rgba(91,196,216,0.12); padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
   .footer-text { font-size: 9px; color: #7A8FA8; letter-spacing: 0.14em; text-transform: uppercase; }
   .flakes { opacity: 0.3; letter-spacing: 4px; }
@@ -47,10 +44,7 @@
     <div class="day loading"><div class="day-name">--</div><span class="day-icon">&#10052;</span><div class="hi">--</div></div>
     <div class="day loading"><div class="day-name">--</div><span class="day-icon">&#10052;</span><div class="hi">--</div></div>
   </div>
-  <div class="map-wrap">
-    <iframe src="https://embed.windy.com/embed2.html?lat=40.646&lon=-111.498&detailLat=40.646&detailLon=-111.498&zoom=9&level=surface&overlay=snowAccu&product=ecmwf&menu=&message=true&marker=true&metricWind=mph&metricTemp=%C2%B0F" allowfullscreen></iframe>
-    <div class="map-label">&#10052; Snow Accumulation &middot; Park City</div>
-  </div>
+</div>
   <div class="footer">
     <span class="footer-text">Clayco Ski Trip 2026 &middot; March 5&ndash;8, 2026</span>
     <span class="flakes">&#10052; &#10052; &#10052;</span>
@@ -90,9 +84,3 @@ load();
 </script>
 </body>
 </html>
-    
-    
-    
-    
-    
-
